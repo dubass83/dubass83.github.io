@@ -1,4 +1,4 @@
-.. title: Maxim Sych
+.. title: CV
 .. slug: index
 .. date: 2020-05-09 16:42:41 UTC+03:00
 .. tags: 
@@ -7,40 +7,100 @@
 .. description: 
 .. type: text
 
-.. image:: /images/Maksym.JPG
-   :alt: alternate Maxim Sych
-   :height: 600
-   :width: 600
-   :scale: 70
-   :align: right
 
---------------------------------------------------------------
-DevOps engineer, solution cloud architect, and  problem solver
---------------------------------------------------------------
-|
+.. class:: jumbotron
 
-Contact information
-===================
+    .. class:: rounded-circle
+    
+        .. image:: /images/Maksym.JPG
+           :alt: alternate Maxim Sych
+           :height: 350
+           :align: right
 
-**I live in**
-    Svitlovodsk, Ukraine
+    .. raw:: html
 
-**Email**
-    makssych@gmail.com
+        <h2 class="display-4">
+        Hello! I am Maxim Sych.
+        </h2>
+        <p class="lead">
+        DevOps engineer, solution cloud architect, and  problem solver.
+        3+ years of hands-on experience supporting, automating, 
+        and optimizing mission critical deployments in AWS, 
+        leveraging configuration management, CI/CD, and DevOps processes.
+        </p>
+          <!--Facebook-->
+          <a class="btn btn-primary" href="https://www.facebook.com/dubass83" role="button">Facebook</a>
+          <!--Twitter-->
+          <a class="btn btn-secondary" href="https://twitter.com/dubass83" role="button">Twitter</a>
+          </a>
+          <!--Linkedin-->
+          <a class="btn btn-info" href="https://www.linkedin.com/in/maxim-sych-/" role="button">Linkedin</a>
+          <!--Github-->
+          <a class="btn btn-dark" href="https://github.com/dubass83" role="button">Github</a>
+        <hr class="my-4">
+        <h3 class="display-5">Basic Information</h3>
+        <div class="row">
+          <div class="col-sm-4"><strong class="text-uppercase">
+            Age:
+          </strong></div>
+          <div class="col-sm-8">
+            36
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-4"><strong class="text-uppercase">
+            Email:
+          </strong></div>
+          <div class="col-sm-8">
+            makssych@gmail.com
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-4"><strong class="text-uppercase">
+            Phone:
+          </strong></div>
+          <div class="col-sm-8">
+            +380-73-174-6033
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-4"><strong class="text-uppercase">
+            Address:
+          </strong></div>
+          <div class="col-sm-8">
+            27500, Svitlovodsk, Ukraine
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-sm-4"><strong class="text-uppercase">
+            Language:
+          </strong></div>
+          <div class="col-sm-8">
+            English, Ukraine, Rusian
+          </div>
+        </div>
 
-**LinkedIn**
-    https://www.linkedin.com/in/maxim-sych-/
 
-**GitHub**
-    https://github.com/dubass83
-
-**Twitter** 
-    https://twitter.com/dubass83
-
-----
 
 Technical Skills
 ----------------
+|
+
+**Operating systems**
+    10 years experience using Centos(Amazon Linux), Debian and Ubuntu Linux.
+
+    Linux installation, user/group management, Partitioning and LVM
+    management, Sharing file system using NFS, SSH, Kerberos
+    server configuration, Firewall configuration (iptables), Nginx
+    configuration including virtualhosts, SSL configuration, business
+    continuity. 
+
+**Cloud solutions**
+    Strong knowledge of AWS cloud. Good understanding of Google cloud and Digital Ocean.
+
+**Databases, cache and message brokers**
+    Instaling and configure Mysql, Mongodb, Postgresql, Redis, RebbitMQ, Kafka, Hazelcast.
+
 **Docker**
     5 years experience running and creating containers.  
 
@@ -61,12 +121,6 @@ Technical Skills
 **Version control**
     Git and github usage. 
 
-**Cloud solutions**
-    Strong knowledge of AWS cloud. Good understanding of Google cloud and Digital Ocean.
-
-**Databases, cache and message brokers**
-    Instaling and configure Mysql, Mongodb, Postgresql, Redis, RebbitMQ, Kafka, Hazelcast.
-
 **Cryptography and computer security**
     A strong interest and deep working knowledge in all aspects of cryptography, including public key cryptography.  
     Solid understanding of cyber risk and state of the art web protocols. 
@@ -76,19 +130,12 @@ Technical Skills
     Good appreciation of the importance of user interfaces with respect to computer security.  
 
     Understanding of the many issues and weaknesses with current best practice in computer security.
-    
-**Operating systems**
-    10 years experience using Centos(Amazon Linux), Debian and Ubuntu Linux.
 
-    Linux installation, user/group management, Partitioning and LVM
-    management, Sharing file system using NFS, SSH, Kerberos
-    server configuration, Firewall configuration (iptables), Nginx
-    configuration including virtualhosts, SSL configuration, business
-    continuity. 
-
+------------
  
 Career History
 --------------
+|
 
 October 2015 - current: DevOps engineer, Kremenchuk RiverSoft
 .............................................................
@@ -98,31 +145,53 @@ This involves migrating from existing monolithic .NET systems to more
 flexible, component based architecture capable of running on a
 heterogeneous cluster of cross-platform computers.
 
+------------
 
 Education
 ---------
-2000 - 2006: Sheffield Business School
-......................................
+|
 
+2000 - 2006: Sheffield Business School
+
+|
+
+1995 - 2000: Secondary School
+
+------------
 
 Certifications
 --------------
+|
 
-===================   =======================================================    ============================
-Date                  Course or certification name                               Organization
-===================   =======================================================    ============================
-**January 2019**      Python Programming                                         Coursera Course Certificates
-**December 2019**     DevOps Monitoring Deep Dive                                Linux Academy
-**December 2019**     Deploying to AWS with Ansible and Terraform                Linux Academy
-**Febreary 2020**     Automating AWS with Lambda, Python, and Boto3              Linux Academy
-**March 2020**        AWS Certified SysOps Administrator - Associate             Linux Academy
-**May 2020**          Service Mesh with Istio                                    Linux Academy
-**May 2020**          Kubernetes the Hard Way                                    Linux Academy
-===================   =======================================================    ============================ 
+.. raw:: html
 
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/monitoring_DD.jpg" class="d-block w-100" alt="Monitoring Deep Dive">
+        </div>
+        <div class="carousel-item">
+          <img src="images/Coursera_VCDYZHG9DHL8.JPG" class="d-block w-100" alt="Python">        
+        </div>
+        <div class="carousel-item">
+          <img src="images/monitoring_DD.jpg" class="d-block w-100" alt="Monitoring Deep Dive">  
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+---------------
 
 Additional information
 ----------------------
+|
 
 :Birthday: 14-12-1983
 :Interests: 
