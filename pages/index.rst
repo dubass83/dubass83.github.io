@@ -174,7 +174,43 @@ Certifications
           <img src="images/Coursera_VCDYZHG9DHL8.JPG" class="d-block w-100" alt="Python">        
         </div>
         <div class="carousel-item">
-          <img src="images/monitoring_DD.jpg" class="d-block w-100" alt="Monitoring Deep Dive">  
+          <img src="images/UC-K8S.jpg" class="d-block w-100" alt="K8S">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-terraform.jpg" class="d-block w-100" alt="terraform">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-AWS-BD.jpg" class="d-block w-100" alt="AWS Big Data">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-kafka-ssl.jpg" class="d-block w-100" alt="Kafka with SSL">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-kafka.jpg" class="d-block w-100" alt="kafka">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-JENKINS.jpg" class="d-block w-100" alt="JENKINS">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-git.jpg" class="d-block w-100" alt="Git">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/UC-DevOps.jpg" class="d-block w-100" alt="DevOps">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/ansible_terraform.JPG" class="d-block w-100" alt="Ansible and Terraform">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/aws_lambda.JPG" class="d-block w-100" alt="AWS Lambda">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/sysOps.JPG" class="d-block w-100" alt="AWS sysOps">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/ISTIO.JPG" class="d-block w-100" alt="Istio">  
+        </div>
+        <div class="carousel-item">
+          <img src="images/k8s_hw.JPG" class="d-block w-100" alt="K8S the Hard Way">  
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
