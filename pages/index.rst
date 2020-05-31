@@ -23,9 +23,9 @@
         Hello! I am Maxim Sych.
         </h2>
         <p class="lead">
-        DevOps engineer, solution cloud architect, and  problem solver.
+        DevOps engineer, solution cloud architect, and problemer solver.
         3+ years of hands-on experience supporting, automating, 
-        and optimizing mission critical deployments in AWS, 
+        and optimizing mission-critical deployments in AWS, 
         leveraging configuration management, CI/CD, and DevOps processes.
         </p>
           <!--Facebook-->
@@ -87,49 +87,49 @@ Technical Skills
 |
 
 **Operating systems**
-    10 years experience using Centos(Amazon Linux), Debian and Ubuntu Linux.
-
-    Linux installation, user/group management, Partitioning and LVM
-    management, Sharing file system using NFS, SSH, Kerberos
+    10 years of experience using Centos(Amazon Linux), Debian, and Ubuntu Linux.
+    Linux installation, user/group management, partitioning, and LVM
+    management, sharing file system using NFS, SSH, Kerberos
     server configuration, Firewall configuration (iptables), Nginx
-    configuration including virtualhosts, SSL configuration, business
-    continuity. 
+    configuration including virtual hosts, SSL configuration. 
 
 **Cloud solutions**
-    Strong knowledge of AWS cloud. Good understanding of Google cloud and Digital Ocean.
+    Strong knowledge of AWS cloud. Good understanding of Google Cloud and Digital Ocean.
+
+**Configuration management**
+    Installing and configure applications using Ansible and Salt.
+
+**Infrastructure as a code**
+    Strong knowledge of Terraform. Good understanding of CloudFormation.
 
 **Databases, cache and message brokers**
-    Instaling and configure Mysql, Mongodb, Postgresql, Redis, RebbitMQ, Kafka, Hazelcast.
+    Instaling and configure applications such as Mysql, MongoDB, Postgresql, Redis, RebbitMQ, Kafka, and Hazelcast.
 
 **Docker**
-    5 years experience running and creating containers.  
+    5 years of experience in running and creating containers.  
 
 **K8S**
-    Creating K8S cluster using Kops, Kubeadmin and from scratch. Runnig K8S cluster 
-    on cloud and bare meatal. 
+    Creating K8S cluster using Kops, Kubeadmin, and from scratch. Running K8S cluster 
+    on cloud and bare metal. 
 
 **Monitoring**
-    Instaling and configure from scratch Monitoring system for production environment.
-    Using Prometheus, Alert manager, Grafana, Graphite, Collectd, Influx, Telegraf and Zabbix.
+    Installing and configure from scratch Monitoring system for a production environment.
+    Using Prometheus, Alert Manager, Grafana, Graphite, Collectd, Influx, Telegraf, and Zabbix.
 
 **CI/CD**
-    Solid understanding of configure Jenkins and Bamboo.  Good understanding of Github Actions and CodeDeploy.
+    Solid understanding of configuring pipelines in Jenkins and Bamboo.  Good understanding of Github Actions and CodeDeploy.
 
 **Program Languages**
     Python, SQL. 
 
 **Version control**
-    Git and github usage. 
+    Git and GitHub usage. 
 
 **Cryptography and computer security**
-    A strong interest and deep working knowledge in all aspects of cryptography, including public key cryptography.  
+    A strong interest and deep working knowledge in all aspects of cryptography, including public-key cryptography.  
     Solid understanding of cyber risk and state of the art web protocols. 
-
-    Excellent understanding of issues around privacy, identity management and security in today's cloud based computing environment.
-
-    Good appreciation of the importance of user interfaces with respect to computer security.  
-
-    Understanding of the many issues and weaknesses with current best practice in computer security.
+    Excellent understanding of issues around privacy, identity management, and security in today's cloud-based computing environment. 
+    Understanding the many issues and weaknesses with current best practices in computer security.
 
 ------------
  
@@ -140,10 +140,10 @@ Career History
 October 2015 - current: DevOps engineer, Kremenchuk RiverSoft
 .............................................................
 
-Designed and built next generation risk systems for Tokio Millennium Re.
-This involves migrating from existing monolithic .NET systems to more
-flexible, component based architecture capable of running on a
-heterogeneous cluster of cross-platform computers.
+- Create and maintain Jenkinsfile for CI/CD pipeline.
+- Responsible for release and exploitation apps in production.
+- Help team set up Vagrant, Ansible, Docker-Compose, and managed AWS resources.
+- Design DevOps infrastructure from scratch for product lines.
 
 ------------
 
@@ -151,11 +151,9 @@ Education
 ---------
 |
 
-2000 - 2006: Sheffield Business School
+2001 - 2006: Dnepropetrovsk University of Economics and Law
 
-|
-
-1995 - 2000: Secondary School
+- Received a diploma in business economics
 
 ------------
 
