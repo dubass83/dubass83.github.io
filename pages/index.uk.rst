@@ -20,13 +20,14 @@
     .. raw:: html
 
         <h2 class="display-4">
-        Hello! I am Maxim Sych.
+        Привіт! Мене звати Максим Сич.
         </h2>
         <p class="lead">
-        DevOps engineer, solution cloud architect, and problemer solver.
-        3+ years of hands-on experience supporting, automating, 
-        and optimizing mission-critical deployments in AWS, 
-        leveraging configuration management, CI/CD, and DevOps processes.
+        Я Інженер DevOps, займаюся розробкою та впровадженням хмарних рішень та 
+        вирішую проблеми якi iнодi виникають.
+        Маю 3+ років практичного досвіду підтримки, автоматизації та оптимізації 
+        розгортання iнфраструктури в AWS.
+        В своiй роботi намагаюсь використовувати управління конфігурацією, CI/CD та DevOps.
         </p>
           <!--Facebook-->
           <a class="btn btn-primary" href="https://www.facebook.com/dubass83" role="button">Facebook</a>
@@ -41,7 +42,7 @@
         <h3 class="display-5">Basic Information</h3>
         <div class="row">
           <div class="col-sm-4"><strong class="text-uppercase">
-            Age:
+            Мiй вiк:
           </strong></div>
           <div class="col-sm-8">
             36
@@ -57,7 +58,7 @@
         </div>
         <div class="row mt-3">
           <div class="col-sm-4"><strong class="text-uppercase">
-            Phone:
+            Телефон:
           </strong></div>
           <div class="col-sm-8">
             +380-73-174-6033
@@ -65,71 +66,75 @@
         </div>
         <div class="row mt-3">
           <div class="col-sm-4"><strong class="text-uppercase">
-            Address:
+            Адреса:
           </strong></div>
           <div class="col-sm-8">
-            27500, Svitlovodsk, Ukraine
+            27500, Світловодськ, Україна
           </div>
         </div>
         <div class="row mt-3">
           <div class="col-sm-4"><strong class="text-uppercase">
-            Language:
+            Мова:
           </strong></div>
           <div class="col-sm-8">
-            English, Ukraine, Rusian
+            Англiйська, Україньська, Російська
           </div>
         </div>
 
 
 
-Technical Skills
+Технічні навички
 ----------------
 |
 
-**Operating systems**
-    10 years of experience using Centos(Amazon Linux), Debian, and Ubuntu Linux.
-    Linux installation, user/group management, partitioning, and LVM
-    management, sharing file system using NFS, SSH, Kerberos
-    server configuration, Firewall configuration (iptables), Nginx
-    configuration including virtual hosts, SSL configuration. 
+**Операційні системи**
+    10-річний досвід використання Centos (Amazon Linux), Debian та Ubuntu Linux.
+    Установка Linux, управління користувачами та групами, розділення диску на 
+    логічні роздилі та LVM, обмін файлами за допомогою NFS, конфігурація SSH та Kerberos.
+    Конфігурація сервера, конфігурація брандмауера (iptables), конфігурація Nginx,
+    включаючи віртуальні хости, конфігурація TLS.
 
-**Cloud solutions**
-    Strong knowledge of AWS cloud. Good understanding of Google Cloud and Digital Ocean.
+** Хмарні рішення **
+    Високі знання в використанні AWS. Гарне розуміння Google Cloud та Digital Ocean.
 
-**Configuration management**
-    Installing and configure applications using Ansible and Salt.
+** Управління конфігурацією **
+    Встановлення та налаштування програм за допомогою Ansible та Salt.
 
-**Infrastructure as a code**
-    Strong knowledge of Terraform. Good understanding of CloudFormation.
+** Інфраструктура як код **
+    Добрі знання по Terraform. Добре розуміння CloudFormation.
 
-**Databases, cache and message brokers**
-    Instaling and configure applications such as Mysql, MongoDB, Postgresql, Redis, RebbitMQ, Kafka, and Hazelcast.
+** Бази даних, кеш-пам'ять та брокери повідомлень **
+    Встановлення та налаштування таких програм, як Mysql, MongoDB, Postgresql,
+    Redis, RebbitMQ, Kafka та Hazelcast.
 
-**Docker**
-    5 years of experience in running and creating containers.  
+** Docker **
+    5 років досвіду експлуатації та створення контейнерів.
 
-**K8S**
-    Creating K8S cluster using Kops, Kubeadmin, and from scratch. Running K8S cluster 
-    on cloud and bare metal. 
+** K8S **
+    Створення кластеру K8S за допомогою Kops, Kubeadmin та з нуля. Запуск кластеру K8S
+    в хмарі та на власних серверах.
 
-**Monitoring**
-    Installing and configure from scratch Monitoring system for a production environment.
-    Using Prometheus, Alert Manager, Grafana, Graphite, Collectd, Influx, Telegraf, and Zabbix.
+** Моніторинг **
+    Встановлення та налаштування з нуля системи контролю за виробничим середовищем.
+    Використовуючи Prometheus, Alert Manager, Grafana, Graphite, Collectd, Influx,
+    Telegraf, та Zabbix.
 
-**CI/CD**
-    Solid understanding of configuring pipelines in Jenkins and Bamboo.  Good understanding of Github Actions and CodeDeploy.
+** CI / CD **
+    Тверде розуміння налаштування процесу зборки та деплою в Jenkins та Bamboo. 
+    Добре розуміння Github Actions та AWS CodeDeploy.
 
-**Program Languages**
-    Python, SQL. 
+** Мови програмування **
+    Python, SQL.
 
-**Version control**
-    Git and GitHub usage. 
+** Контроль версій **
+    Використання Git та GitHub.
 
-**Cryptography and computer security**
-    A strong interest and deep working knowledge in all aspects of cryptography, including public-key cryptography.  
-    Solid understanding of cyber risk and state of the art web protocols. 
-    Excellent understanding of issues around privacy, identity management, and security in today's cloud-based computing environment. 
-    Understanding the many issues and weaknesses with current best practices in computer security.
+** Криптографія та комп'ютерна безпека **
+    Сильний інтерес та глибокі знання у всіх аспектах криптографії, включаючи криптографію з відкритим ключем.
+    Тверде розуміння кібер-ризику та сучасних веб-протоколів.
+    Прекрасне розуміння проблем навколо конфіденційності, управління ідентифікацією та 
+    безпекою в сьогоднішньому хмарному обчислювальному середовищі.
+    Розуміння багатьох питань та слабких сторін із сучасними найкращими практиками комп’ютерної безпеки.
 
 ------------
  
