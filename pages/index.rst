@@ -144,6 +144,9 @@ October 2015 - current: DevOps engineer, Kremenchuk RiverSoft
 - Responsible for release and exploitation apps in production.
 - Help team set up Vagrant, Ansible, Docker-Compose, and managed AWS resources.
 - Design DevOps infrastructure from scratch for product lines.
+- Creating and maintaining a secure Kafka cluster on bare metal.
+- Applied a multi-account strategy in AWS.
+- Made setup on-call alerts using Prometheus Alertmanager and PagerDuty.
 
 ------------
 
