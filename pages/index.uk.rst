@@ -138,34 +138,36 @@
 
 ------------
  
-Career History
+Історія кар'єри
 --------------
 |
 
-October 2015 - current: DevOps engineer, Kremenchuk RiverSoft
-.............................................................
+Жовтень 2015 - поточний: інженер DevOps, Кременчук RiverSoft
+.................................................. ...........
 
-- Create and maintain Jenkinsfile for CI/CD pipeline.
-- Responsible for release and exploitation apps in production.
-- Help team set up Vagrant, Ansible, Docker-Compose, and managed AWS resources.
-- Design DevOps infrastructure from scratch for product lines.
-- Creating and maintaining a secure Kafka cluster on bare metal.
-- Applied a multi-account strategy in AWS.
-- Made setup on-call alerts using Prometheus Alertmanager and PagerDuty.
+- Створення та підтримка Jenkinsfile для конвеєра CI / CD.
+- Відповідальній за випуск та експлуатацію програм у виробничему оточенні.
+- Допомога команді розробки з налаштуванням та вікорістаням Vagrant, Ansible,
+  Docker-Compose та керувала ресурсами AWS.
+- Дизайн інфраструктури DevOps з нуля для лінійок продуктів.
+- Створення та підтримка захищеного кластеру Kafka на власних серверах.
+- Запровадження стратегії з декількома рахунками в AWS.
+- Створено систему налаштування сповіщень під час винекнення інцідентів у виробничему оточенні
+  за допомогою Prometheus, Alertmanager та PagerDuty.
 
 ------------
 
-Education
+Освіта
 ---------
 |
 
-2001 - 2006: Dnepropetrovsk University of Economics and Law
+2001 - 2006: "Дніпропетровський університет економіки та права"
 
-- Received a diploma in business economics
+- Отримав диплом з економіки підпріємства
 
 ------------
 
-Certifications
+Сертифікати
 --------------
 |
 
@@ -231,12 +233,12 @@ Certifications
 
 ---------------
 
-Additional information
+Додаткова інформація
 ----------------------
 |
 
-:Birthday: 14-12-1983
-:Interests: 
-    Cloud native solutions, highly loaded web applications, design patterns, Python
-:Hobbies: Fishing, travelling, hiking, programming
+: День народження: 14-12-1983
+: Інтереси:
+     Хмарні рішення, високо завантажені веб-програми, шаблони програмування та Python
+: Хобі: риболовля, подорожі, походи, програмування
 

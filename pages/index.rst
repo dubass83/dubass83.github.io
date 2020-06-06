@@ -154,7 +154,7 @@ Education
 ---------
 |
 
-2001 - 2006: Dnepropetrovsk University of Economics and Law
+2001 - 2006: "Dnepropetrovsk University of Economics and Law"
 
 - Received a diploma in business economics
 
