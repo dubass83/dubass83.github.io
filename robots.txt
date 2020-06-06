@@ -1,0 +1,4 @@
+Sitemap: https://dubass83.xyz/sitemapindex.xml
+
+User-Agent: *
+Host: dubass83.xyz
