@@ -231,6 +231,7 @@ Additional information
 |
 
 :Birthday: 14-12-1983
+:Marital status: Married has a 12-year-old daughter.
 :Interests: 
     Cloud native solutions, highly loaded web applications, design patterns, Python.
 :Hobbies: Fishing, travelling, hiking, programming.
