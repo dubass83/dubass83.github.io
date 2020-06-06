@@ -232,6 +232,6 @@ Additional information
 
 :Birthday: 14-12-1983
 :Interests: 
-    Cloud native solutions, highly loaded web applications, design patterns, Python
-:Hobbies: Fishing, travelling, hiking, programming
+    Cloud native solutions, highly loaded web applications, design patterns, Python.
+:Hobbies: Fishing, travelling, hiking, programming.
 
