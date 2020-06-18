@@ -76,7 +76,7 @@
             Language:
           </strong></div>
           <div class="col-sm-8">
-            English, Ukraine, Rusian
+            English, Ukraine, Russian
           </div>
         </div>
 
