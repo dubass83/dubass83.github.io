@@ -143,7 +143,7 @@
 -------------------------------
 |
 
-Жовтень 2015 - поточний: інженер DevOps, Кременчук RiverSoft
+Жовтень 2016 - поточний: інженер DevOps, Кременчук RiverSoft
 ............................................................
 
 - Створення та підтримка Jenkinsfile для конвеєра CI / CD.
@@ -177,6 +177,9 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="images/LA-CKA.jpg" class="d-block w-100" alt="Cloud Native Certified Kubernetes Administrator">
+        </div>
+        <div class="carousel-item">
           <img src="images/LA-VIM.JPG" class="d-block w-100" alt="Text Editing with Vim">
         </div>
         <div class="carousel-item">
