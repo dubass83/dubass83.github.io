@@ -137,7 +137,7 @@ Career History
 --------------
 |
 
-October 2015 - current: DevOps engineer, Kremenchuk RiverSoft
+October 2016 - current: DevOps engineer, Kremenchuk RiverSoft
 .............................................................
 
 - Create and maintain Jenkinsfile for CI/CD pipeline.
@@ -169,6 +169,9 @@ Certifications
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="images/LA-CKA.jpg" class="d-block w-100" alt="Cloud Native Certified Kubernetes Administrator">
+        </div>
+        <div class="carousel-item">
           <img src="images/LA-VIM.JPG" class="d-block w-100" alt="Text Editing with Vim">
         </div>
         <div class="carousel-item">
