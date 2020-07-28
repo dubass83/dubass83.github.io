@@ -169,6 +169,9 @@ Certifications
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="images/UC-zabbix.jpg" class="d-block w-100" alt="Zabbix 5 Application and Network Monitoring">
+        </div>
+        <div class="carousel-item">
           <img src="images/LA-CKA.jpg" class="d-block w-100" alt="Cloud Native Certified Kubernetes Administrator">
         </div>
         <div class="carousel-item">
