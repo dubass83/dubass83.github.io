@@ -40,6 +40,8 @@
           <!--Github-->
           <a class="btn btn-dark" href="https://github.com/dubass83" role="button">Github</a>
         <hr class="my-4">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c905a958-f042-4f8b-951c-d55c5c98e0ba" data-share-badge-host="https://www.youracclaim.com"></div>
+        <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
         <h3 class="display-5">Загальна інформація</h3>
         <div class="row">
           <div class="col-sm-4"><strong class="text-uppercase">
