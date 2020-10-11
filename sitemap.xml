@@ -7,55 +7,55 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://dubass83.xyz/</loc>
-  <lastmod>2020-06-06T10:51:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="uk" href="https://dubass83.xyz/uk/" />
  </url>
  <url>
   <loc>https://dubass83.xyz/archive.html</loc>
-  <lastmod>2020-10-05T07:35:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/blog/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/categories/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/galleries/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/listings/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/listings/__pycache__/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/listings/hello.py.html</loc>
-  <lastmod>2020-10-05T07:35:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/uk/</loc>
-  <lastmod>2020-06-06T10:11:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/uk/archive.html</loc>
-  <lastmod>2020-10-05T07:35:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/uk/blog/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/uk/categories/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://dubass83.xyz/uk/galleries/</loc>
-  <lastmod>2020-05-31T06:53:00Z</lastmod>
+  <lastmod>2020-10-11T17:58:00Z</lastmod>
  </url>
 </urlset>
