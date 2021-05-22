@@ -1,6 +1,6 @@
 .. title: CV
 .. slug: index
-.. date: 2020-05-09 16:42:41 UTC+03:00
+.. date: 2021-05-22 12:50:41 UTC+03:00
 .. tags: 
 .. category: 
 .. link: 
@@ -40,8 +40,20 @@
           <!--Github-->
           <a class="btn btn-dark" href="https://github.com/dubass83" role="button">Github</a>
         <hr class="my-4">
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c905a958-f042-4f8b-951c-d55c5c98e0ba" data-share-badge-host="https://www.youracclaim.com"></div>
-        <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+        <div class="row">
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c905a958-f042-4f8b-951c-d55c5c98e0ba" data-share-badge-host="https://www.youracclaim.com"></div>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+          <blockquote class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;">
+            <a href="https://api.badgr.io/public/assertions/aexPn2MOSuatkE3Khke6ZQ?identity__email=makssych%40gmail.com">
+              <img width="120px" height="120px" src="https://api.badgr.io/public/assertions/aexPn2MOSuatkE3Khke6ZQ/image">
+            </a>
+            <p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word;margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">GitLab Certified </br>Associate</p>
+            <p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded:</strong>May 20, 2021</p>
+            <p class="badgr-badge-recipient" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To:</strong><span style="display: block;"> Maksym Sych</span></p>
+            <p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FaexPn2MOSuatkE3Khke6ZQ%3Fidentity__email%3Dmakssych%2540gmail.com&amp;identity__email=makssych%40gmail.com" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; padding: 6px 16px; margin: 16px 0; color: black;">VERIFY</a></p>
+            <script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script>
+          </blockquote>
+        </div>
         <h3 class="display-5">Загальна інформація</h3>
         <div class="row">
           <div class="col-sm-4"><strong class="text-uppercase">
@@ -120,17 +132,17 @@
 **Моніторинг**
     Встановлення та налаштування з нуля системи контролю за виробничим середовищем.
     Використовуючи Prometheus, Alert Manager, Grafana, Graphite, Collectd, Influx,
-    Telegraf, та Zabbix.
+    Telegraf, AWS CloudWatch та Zabbix.
 
 **CI/CD**
     Тверде розуміння налаштування процесу зборки та деплою в Jenkins та Bamboo. 
-    Добре розуміння Github Actions та AWS CodeDeploy.
+    Добре розуміння Github Actions, AWS CodeDeploy та Gitlab Pipelines.
 
 **Мови програмування**
-    Python, SQL.
+    Golang, Python, SQL.
 
 **Контроль версій**
-    Використання Git та GitHub.
+    Використання Git, GitHub, Gitlab.
 
 **Криптографія та комп'ютерна безпека**
     Сильний інтерес та глибокі знання у всіх аспектах криптографії, включаючи криптографію з відкритим ключем.
@@ -145,8 +157,8 @@
 -------------------------------
 |
 
-Жовтень 2016 - поточний: інженер DevOps, Кременчук RiverSoft
-............................................................
+Жовтень 2016 - Травень 2021: інженер DevOps, Кременчук RiverSoft
+................................................................
 
 - Створення та підтримка Jenkinsfile для конвеєра CI / CD.
 - Відповідальній за випуск та експлуатацію програм у виробничему оточенні.
@@ -183,6 +195,9 @@
         </div>
         <div class="carousel-item">
           <img src="images/LPIC-CG.PNG" class="d-block w-100" alt="LPIC-3 Exam 303: Security">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-monitoring-AWS.jpg" class="d-block w-100" alt="Cloud Guru Monitoring AWS">
         </div>
         <div class="carousel-item">
           <img src="images/UC-zabbix.jpg" class="d-block w-100" alt="Zabbix 5 Application and Network Monitoring">
@@ -256,7 +271,7 @@
 |
 
 :Народився: 14-12-1983
-:Сімейний стан: Одружиний є дочка 12 років.
-:Інтереси: Хмарні рішення, високо завантажені веб-програми, шаблони програмування та Python.
+:Сімейний стан: Одружиний є дочка 13 років.
+:Інтереси: Хмарні рішення, високо завантажені веб-програми, шаблони програмування, Python та Golang.
 :Хобі: Риболовля, подорожі, походи, програмування.
 
