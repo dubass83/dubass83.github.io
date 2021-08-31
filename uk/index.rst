@@ -59,7 +59,7 @@
             Мiй вiк:
           </strong></div>
           <div class="col-sm-8">
-            36 років
+            37 років
           </div>
         </div>
         <div class="row mt-3">
@@ -109,13 +109,13 @@
     включаючи віртуальні хости, конфігурація TLS.
 
 **Хмарні рішення**
-    Високі знання в використанні AWS. Гарне розуміння Google Cloud та Digital Ocean.
+    Високі знання в використанні AWS. Гарне розуміння Azure, Google Cloud та Digital Ocean.
 
 **Управління конфігурацією**
     Встановлення та налаштування програм за допомогою Ansible та Salt.
 
 **Інфраструктура як код**
-    Добрі знання по Terraform. Добре розуміння CloudFormation.
+    Добрі знання по Terraform та Terragrunt. Добре розуміння CloudFormation.
 
 **Бази даних, кеш-пам'ять та брокери повідомлень**
     Встановлення та налаштування таких програм, як Mysql, MongoDB, Postgresql,
@@ -156,6 +156,11 @@
 -------------------------------
 |
 
+Травень 2021 - до поточного часу: інженер DevOps, Дніпро Luxoft
+...............................................................
+- Створення та підтримка внутрішньої платформи для мікросервісів за 
+  допомогою Terraform та Terragrunt.
+
 Жовтень 2016 - Травень 2021: інженер DevOps, Кременчук RiverSoft
 ................................................................
 
@@ -191,6 +196,15 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/cka-certificate.JPEG" class="d-block w-100" alt="Certified Kubernetes Administrator (CKA)">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-init-Azure.png" class="d-block w-100" alt="Cloud Guru init Azure">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-pipeline-Azure.png" class="d-block w-100" alt="Cloud Guru pipeline Azure">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-Helm-deep.png" class="d-block w-100" alt="Cloud Guru Helm deep dive">
         </div>
         <div class="carousel-item">
           <img src="images/LPIC-CG.PNG" class="d-block w-100" alt="LPIC-3 Exam 303: Security">

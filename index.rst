@@ -57,7 +57,7 @@
             Age:
           </strong></div>
           <div class="col-sm-8">
-            36
+            37
           </div>
         </div>
         <div class="row mt-3">
@@ -107,13 +107,13 @@ Technical Skills
     configuration including virtual hosts, SSL configuration. 
 
 **Cloud solutions**
-    Strong knowledge of AWS cloud. Good understanding of Google Cloud and Digital Ocean.
+    Strong knowledge of AWS cloud. Good understanding of Azure, Google Cloud and Digital Ocean.
 
 **Configuration management**
     Installing and configure applications using Ansible and Salt.
 
 **Infrastructure as a code**
-    Strong knowledge of Terraform. Good understanding of CloudFormation.
+    Strong knowledge of Terraform and Terragrunt. Good understanding of CloudFormation.
 
 **Databases, cache and message brokers**
     Instaling and configure applications such as Mysql, MongoDB, Postgresql, Redis, RebbitMQ, Kafka, and Hazelcast.
@@ -150,6 +150,11 @@ Career History
 --------------
 |
 
+May 2021 - till current time : DevOps engineer, Dnipro Luxoft
+.............................................................
+
+- Create and support an internal platform for microservices with Terraform and Terragrunt.
+
 October 2016 - May 2021: DevOps engineer, Kremenchuk RiverSoft
 ..............................................................
 
@@ -183,6 +188,15 @@ Certifications
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/cka-certificate.JPEG" class="d-block w-100" alt="Certified Kubernetes Administrator (CKA)">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-init-Azure.png" class="d-block w-100" alt="Cloud Guru init Azure">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-pipeline-Azure.png" class="d-block w-100" alt="Cloud Guru pipeline Azure">
+        </div>
+        <div class="carousel-item">
+        <img src="images/CG-Helm-deep.png" class="d-block w-100" alt="Cloud Guru Helm deep dive">
         </div>
         <div class="carousel-item">
         <img src="images/CG-monitoring-AWS.jpg" class="d-block w-100" alt="Cloud Guru Monitoring AWS">
