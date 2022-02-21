@@ -50,6 +50,7 @@
             <p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FaexPn2MOSuatkE3Khke6ZQ%3Fidentity__email%3Dmakssych%2540gmail.com&amp;identity__email=makssych%40gmail.com" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; padding: 6px 16px; margin: 16px 0; color: black;">VERIFY</a></p>
             <script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script>
           </blockquote>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3c037237-d1f5-488a-9ce9-8a2115163afe" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         </div>
         <h3 class="display-5">Basic Information</h3>
         <div class="row">
@@ -57,7 +58,7 @@
             Age:
           </strong></div>
           <div class="col-sm-8">
-            37
+            38
           </div>
         </div>
         <div class="row mt-3">
@@ -130,7 +131,7 @@ Technical Skills
     Using Prometheus, Alert Manager, Grafana, Graphite, Collectd, Influx, Telegraf, AWS CloudWatch and Zabbix.
 
 **CI/CD**
-    Solid understanding of configuring pipelines in Jenkins and Bamboo.  Good understanding of Github Actions, Gitlab Pipelines and CodeDeploy.
+    Solid understanding of configuring pipelines in Jenkins, Gitlab Pipelines and Bamboo.  Good understanding of Github Actions and CodeDeploy.
 
 **Program Languages**
     Golang, Python, SQL. 
@@ -153,7 +154,10 @@ Career History
 May 2021 - till current time : DevOps engineer, Dnipro Luxoft
 .............................................................
 
-- Create and support an internal platform for microservices with Terraform and Terragrunt.
+- Creating and maintaining an internal platform for microservices using Terraform and Terragrunt.
+- Create and support K8S managed services in the AWS and Azure clouds.
+- Create and support of gitlab-ci.yml files for CI pipelines.
+- Added terrates in the terraform modules.
 
 October 2016 - May 2021: DevOps engineer, Kremenchuk RiverSoft
 ..............................................................
@@ -276,7 +280,7 @@ Additional information
 |
 
 :Birthday: 14-12-1983
-:Marital status: Married has a 13-year-old daughter.
+:Marital status: Married has a 14-year-old daughter.
 :Interests: 
     Cloud native solutions, highly loaded web applications, design patterns, Python and Golang.
 :Hobbies: Fishing, travelling, hiking, programming.

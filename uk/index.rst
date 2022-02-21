@@ -52,6 +52,7 @@
             <p style="margin: 16px 0; padding: 0;"><a class="badgr-badge-verify" target="_blank" href="https://badgecheck.io?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FaexPn2MOSuatkE3Khke6ZQ%3Fidentity__email%3Dmakssych%2540gmail.com&amp;identity__email=makssych%40gmail.com" style="box-sizing: content-box; display: flex; align-items: center; justify-content: center; margin: 0; font-size:14px; font-weight: bold; width: 48px; height: 16px; border-radius: 4px; border: solid 1px black; text-decoration: none; padding: 6px 16px; margin: 16px 0; color: black;">VERIFY</a></p>
             <script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script>
           </blockquote>
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3c037237-d1f5-488a-9ce9-8a2115163afe" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         </div>
         <h3 class="display-5">Загальна інформація</h3>
         <div class="row">
@@ -59,7 +60,7 @@
             Мiй вiк:
           </strong></div>
           <div class="col-sm-8">
-            37 років
+            38 років
           </div>
         </div>
         <div class="row mt-3">
@@ -134,8 +135,8 @@
     Telegraf, AWS CloudWatch та Zabbix.
 
 **CI/CD**
-    Тверде розуміння налаштування процесу зборки та деплою в Jenkins та Bamboo. 
-    Добре розуміння Github Actions, AWS CodeDeploy та Gitlab Pipelines.
+    Тверде розуміння налаштування процесу зборки та деплою в Jenkins, Gitlab Pipelines та Bamboo. 
+    Добре розуміння Github Actions та AWS CodeDeploy.
 
 **Мови програмування**
     Golang, Python, SQL.
@@ -158,8 +159,10 @@
 
 Травень 2021 - до поточного часу: інженер DevOps, Дніпро Luxoft
 ...............................................................
-- Створення та підтримка внутрішньої платформи для мікросервісів за 
-  допомогою Terraform та Terragrunt.
+- Створення та підтримка внутрішньої платформи для мікросервісів за допомогою Terraform та Terragrunt.
+- Створення та підтримка керованих служб K8S у хмарах AWS та Azure.
+- Створення та підтримка файлів gitlab-ci.yml для конвеєрів CI.
+- Додав терратести в модулі тераформa.
 
 Жовтень 2016 - Травень 2021: інженер DevOps, Кременчук RiverSoft
 ................................................................
@@ -284,7 +287,7 @@
 |
 
 :Народився: 14-12-1983
-:Сімейний стан: Одружиний є дочка 13 років.
+:Сімейний стан: Одружиний є дочка 14 років.
 :Інтереси: Хмарні рішення, високо завантажені веб-програми, шаблони програмування, Python та Golang.
 :Хобі: Риболовля, подорожі, походи, програмування.
 
