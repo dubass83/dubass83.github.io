@@ -39,6 +39,8 @@
           <a class="btn btn-info" href="https://www.linkedin.com/in/maxim-sych-/" role="button">Linkedin</a>
           <!--Github-->
           <a class="btn btn-dark" href="https://github.com/dubass83" role="button">Github</a>
+          <!--GitLab-->
+          <a class="btn btn-info" href="https://gitlab.com/dubass83" role="button">GitLab</a>
         <hr class="my-4">
         <div class="row">
           <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c905a958-f042-4f8b-951c-d55c5c98e0ba" data-share-badge-host="https://www.youracclaim.com"></div>
@@ -92,7 +94,7 @@
             Мова:
           </strong></div>
           <div class="col-sm-8">
-            Англiйська, Україньська, Російська
+            Англiйська <b>B1</b>, Україньська <b>C2</b>, Російська <b>C2</b>
           </div>
         </div>
 
@@ -199,6 +201,9 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/cka-certificate.JPEG" class="d-block w-100" alt="Certified Kubernetes Administrator (CKA)">
+        </div>
+        <div class="carousel-item">
+        <img src="images/AWS-solutions-architect-associate-cert.png" class="d-block w-100" alt="AWS solutions architect">
         </div>
         <div class="carousel-item">
         <img src="images/CG-init-Azure.png" class="d-block w-100" alt="Cloud Guru init Azure">
