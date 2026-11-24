@@ -1,0 +1,62 @@
+name: Build and deploy CV
+
+on:
+  push:
+    branches: [src]
+  pull_request:
+    branches: [src]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pandoc fonts-dejavu-core
+          google-chrome --version
+
+      - name: Build site and CV files
+        run: python build.py --strict
+
+      - name: Upload CV files (for PR preview)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-files
+          path: dist/cv/
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,207 @@
+{% set p = cv.person %}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ p.name|t }} — {{ p.title|t }}</title>
+  <meta name="description" content="{{ p.summary|t }}">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="canonical" href="{{ p.website }}/{{ '' if lang == langs[0][0] else lang ~ '/' }}">
+  {% for code, _, path in langs %}
+  <link rel="alternate" hreflang="{{ code }}" href="{{ p.website }}/{{ path }}">
+  {% endfor %}
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ p.name|t }} — {{ p.title|t }}">
+  <meta property="og:description" content="{{ p.summary|t }}">
+  <meta property="og:image" content="{{ p.website }}/{{ p.photo }}">
+  <link rel="icon" href="{{ root }}favicon.ico">
+  <link rel="stylesheet" href="{{ root }}static/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":{{ (p.name|t)|tojson }},"jobTitle":{{ (p.title|t)|tojson }},"url":{{ p.website|tojson }},"email":{{ ("mailto:" ~ p.email)|tojson }},"sameAs":{{ p.links|map(attribute='url')|list|tojson }}}
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <nav class="langs no-print" aria-label="Language">
+        {% for code, name, path in langs %}
+        {% if code == lang %}<span aria-current="page">{{ name }}</span>{% else %}<a href="{{ root }}{{ path }}" hreflang="{{ code }}" lang="{{ code }}">{{ name }}</a>{% endif %}
+        {% endfor %}
+      </nav>
+
+      <div class="hero-grid">
+        <img class="avatar" src="{{ root }}{{ p.photo }}" alt="{{ p.name|t }}" width="160" height="160">
+        <div>
+          <h1>{{ p.name|t }}</h1>
+          <p class="role">{{ p.title|t }}</p>
+          <p class="contact">
+            <span>{{ p.location|t }}</span>
+            <a href="mailto:{{ p.email }}">{{ p.email }}</a>
+            <a class="print-only" href="{{ p.website }}">{{ p.website|replace('https://', '') }}</a>
+          </p>
+          <ul class="links">
+            {% for l in p.links %}
+            <li><a href="{{ l.url }}" rel="me noopener">{{ l.label }}<span class="print-only"> — {{ l.url|replace('https://', '')|replace('www.', '') }}</span></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <p class="summary">{{ p.summary|t }}</p>
+
+      {% if downloads %}
+      <div class="download no-print">
+        <span class="download-label">{{ ui.download }}</span>
+        {% for label, href in downloads %}
+        <a class="btn{{ ' btn-primary' if loop.first }}" href="{{ href }}" download>{{ label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if cv.badges %}
+      <div class="badges no-print">
+        {% for b in cv.badges %}
+        <a href="{{ b.url }}" rel="noopener" title="{{ b.name }}"><img src="{{ b.image }}" alt="{{ b.name }}" height="28"></a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="experience">
+      <h2>{{ ui.experience }}</h2>
+      <ol class="timeline">
+        {% for job in cv.experience %}
+        <li class="job">
+          <div class="job-head">
+            <h3>{{ job.role|t }} <span class="at">· {{ job.company }}</span></h3>
+            <p class="when">{{ job.start|date }} – {{ job.end|date }}{% if job.location %} · {{ job.location|t }}{% endif %}</p>
+          </div>
+          <ul>
+            {% for h in job.highlights %}
+            <li>{{ h|t }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+
+    <section id="skills">
+      <h2>{{ ui.skills }}</h2>
+      <dl class="skills">
+        {% for s in cv.skills %}
+        <div>
+          <dt>{{ s.group|t }}</dt>
+          <dd>{% for item in s['items'] %}<span class="chip">{{ item|t }}</span>{% endfor %}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </section>
+
+    {% if certifications %}
+    <section id="certifications">
+      <h2>{{ ui.certifications }}</h2>
+      <div class="certs">
+        {% for c in certifications %}
+        {% set expired = c.expires and (c.expires|expired) %}
+        <article class="cert{{ ' is-expired' if expired }}">
+          {% if c.image %}
+          <a class="cert-img no-print" href="{{ root }}{{ c.image }}" data-lightbox data-caption="{{ c.name }}">
+            <img src="{{ root }}{{ c.image|replace('.jpg', '.thumb.jpg') }}" alt="{{ c.name }}" loading="lazy" width="640" height="480">
+          </a>
+          {% endif %}
+          <div class="cert-body">
+            <h3>{{ c.name }}</h3>
+            <p class="muted">{{ c.issuer }} · {{ c.date|date }}{% if c.expires %} · <span class="{{ 'tag-expired' if expired }}">{{ ui.expired if expired else ui.expires }} {{ c.expires|date }}</span>{% endif %}</p>
+            {% if c.id or c.verify %}
+            <p class="muted small">
+              {% if c.id %}{{ ui.id }}: <code>{{ c.id }}</code>{% endif %}
+              {% if c.verify %} · <a href="{{ c.verify }}" rel="noopener">{{ ui.verify }} ↗</a>{% endif %}
+            </p>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if training %}
+    <section id="training">
+      <h2>{{ ui.training }} <span class="count">{{ training|length }}</span></h2>
+      <ul class="training">
+        {% for c in training %}
+        <li>
+          {% if c.image %}
+          <a href="{{ root }}{{ c.image }}" data-lightbox data-caption="{{ c.name }} — {{ c.issuer }}, {{ c.date|date }}">
+            <img class="no-print" src="{{ root }}{{ c.image|replace('.jpg', '.thumb.jpg') }}" alt="" loading="lazy" width="640" height="480">
+            <span class="t-name">{{ c.name }}</span>
+          </a>
+          {% else %}
+          <span class="t-name">{{ c.name }}</span>
+          {% endif %}
+          <span class="t-meta">{{ c.issuer }} · {{ c.date|date }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <div class="two-col">
+      <section id="education">
+        <h2>{{ ui.education }}</h2>
+        {% for e in cv.education %}
+        <h3>{{ e.school|t }}</h3>
+        <p class="muted">{{ e.degree|t }} · {{ e.start }} – {{ e.end }}</p>
+        {% endfor %}
+      </section>
+
+      <section id="languages">
+        <h2>{{ ui.languages }}</h2>
+        <ul class="plain">
+          {% for l in p.languages %}
+          <li>{{ l.name|t }} <span class="chip">{{ l.level }}</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    {% if cv.interests %}
+    <section id="interests">
+      <h2>{{ ui.interests }}</h2>
+      <p>{{ cv.interests|t }}</p>
+    </section>
+    {% endif %}
+  </main>
+
+  <footer class="wrap muted small">
+    {{ ui.updated }} {{ updated }} · <a href="https://github.com/dubass83/dubass83.github.io/tree/src">source</a>
+  </footer>
+
+  <dialog id="lightbox" class="no-print" aria-label="Certificate">
+    <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+    <img alt="">
+    <p class="caption"></p>
+  </dialog>
+
+  <script>
+    (function () {
+      var dlg = document.getElementById('lightbox');
+      if (!dlg || typeof dlg.showModal !== 'function') return;
+      var img = dlg.querySelector('img'), cap = dlg.querySelector('.caption');
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest('a[data-lightbox]');
+        if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
+        e.preventDefault();
+        img.src = a.getAttribute('href');
+        img.alt = cap.textContent = a.dataset.caption || '';
+        dlg.showModal();
+      });
+      dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    })();
+  </script>
+</body>
+</html>

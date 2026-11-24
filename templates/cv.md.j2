@@ -1,0 +1,67 @@
+{% set p = cv.person %}
+# {{ p.name|t }}
+
+**{{ p.title|t }}**\
+{{ p.location|t }} · <{{ p.email }}> · <{{ p.website }}>\
+{% for l in p.links %}[{{ l.label }}]({{ l.url }}){{ ' · ' if not loop.last }}{% endfor %}
+
+
+{{ p.summary|t }}
+
+## {{ ui.experience }}
+
+{% for job in cv.experience %}
+### {{ job.role|t }} — {{ job.company }}
+
+*{{ job.start|date }} – {{ job.end|date }}{% if job.location %} · {{ job.location|t }}{% endif %}*
+
+{% for h in job.highlights %}
+- {{ h|t }}
+{% endfor %}
+
+{% endfor %}
+## {{ ui.skills }}
+
+{% for s in cv.skills %}
+- **{{ s.group|t }}:** {% for item in s['items'] %}{{ item|t }}{{ ', ' if not loop.last }}{% endfor %}
+
+{% endfor %}
+
+{% if certifications %}
+## {{ ui.certifications }}
+
+{% for c in certifications %}
+- **{{ c.name }}** — {{ c.issuer }}, {{ c.date|date }}{% if c.expires %} ({{ ui.expired if c.expires|expired else ui.expires }} {{ c.expires|date }}){% endif %}{% if c.id %}. {{ ui.id }}: `{{ c.id }}`{% endif %}{% if c.verify %}. [{{ ui.verify }}]({{ c.verify }}){% endif %}
+
+{% endfor %}
+{% endif %}
+{% if cv.badges %}
+{% for b in cv.badges %}
+- [{{ b.name }}]({{ b.url }})
+{% endfor %}
+
+{% endif %}
+{% if training %}
+## {{ ui.training }}
+
+{% for c in training %}
+- {{ c.name }} — {{ c.issuer }}, {{ c.date|date }}
+{% endfor %}
+
+{% endif %}
+## {{ ui.education }}
+
+{% for e in cv.education %}
+- **{{ e.school|t }}** — {{ e.degree|t }}, {{ e.start }}–{{ e.end }}
+{% endfor %}
+
+## {{ ui.languages }}
+
+{% for l in p.languages %}{{ l.name|t }} ({{ l.level }}){{ ' · ' if not loop.last }}{% endfor %}
+
+
+{% if cv.interests %}
+## {{ ui.interests }}
+
+{{ cv.interests|t }}
+{% endif %}

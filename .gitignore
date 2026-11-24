@@ -1,8 +1,4 @@
-cache
-.doit.db.db
-__pycache__
-output
-.vscode
+dist/
+__pycache__/
+.venv/
 .DS_Store
-files/.DS_Store
-*/.DS_Store

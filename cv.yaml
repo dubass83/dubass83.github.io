@@ -1,0 +1,206 @@
+# Single source of truth for the CV site and the downloadable CV files.
+#
+# Text fields can be a plain string (same in every language) or a map with
+# `en` / `uk` keys. Missing `uk` falls back to `en`.
+# Dates are YYYY-MM. Leave `end` empty for the current position.
+# See DEPLOY.md for how to add a job, certification or badge.
+
+person:
+  name:
+    en: Maksym Sych
+    uk: Максим Сич
+  title:
+    en: DevOps / Platform Engineer
+    uk: DevOps / Platform інженер
+  photo: static/img/profile.jpg
+  location:
+    en: Svitlovodsk, Ukraine · open to remote
+    uk: Світловодськ, Україна · відкритий до віддаленої роботи
+  email: makssych@gmail.com
+  website: https://dubass83.xyz
+  links:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/maxim-sych-/
+    - label: GitHub
+      url: https://github.com/dubass83
+    - label: GitLab
+      url: https://gitlab.com/dubass83
+  summary:
+    en: >-
+      DevOps engineer building and running cloud platforms since 2016.
+      I design infrastructure as code with Terraform and Terragrunt, run
+      Kubernetes in AWS, Azure and on bare metal, and build the CI/CD,
+      monitoring and alerting that keep production boring.
+    uk: >-
+      DevOps-інженер, який з 2016 року будує та підтримує хмарні платформи.
+      Проєктую інфраструктуру як код на Terraform і Terragrunt, керую Kubernetes
+      в AWS, Azure та на власних серверах, налаштовую CI/CD, моніторинг і
+      алертинг, щоб продакшн працював передбачувано.
+  languages:
+    - name: { en: English, uk: Англійська }
+      level: B1
+    - name: { en: Ukrainian, uk: Українська }
+      level: C2
+    - name: { en: Russian, uk: Російська }
+      level: C2
+
+# Shields.io-style image badges shown in the header row.
+badges:
+  - name: SadServers Master
+    url: https://sadservers.com
+    image: https://img.shields.io/badge/SadServers-Master-FF6D00?style=for-the-badge&labelColor=FFC400&logo=kubernetes&logoColor=1A237E&logoSize=auto
+
+experience:
+  - role: { en: DevOps Engineer, uk: DevOps-інженер }
+    company: Luxoft
+    location: { en: "Dnipro, Ukraine", uk: "Дніпро, Україна" }
+    start: 2021-05
+    end:  # TODO: still current? Add the date you left and any newer roles above this one.
+    highlights:
+      - en: Built and maintained an internal microservices platform with Terraform and Terragrunt.
+        uk: Створив і підтримую внутрішню платформу для мікросервісів на Terraform і Terragrunt.
+      - en: Provisioned and operated managed Kubernetes (EKS, AKS) in AWS and Azure.
+        uk: Розгортаю та підтримую керовані Kubernetes-кластери (EKS, AKS) в AWS і Azure.
+      - en: Wrote and maintained GitLab CI pipelines for infrastructure and services.
+        uk: Пишу та підтримую GitLab CI пайплайни для інфраструктури й сервісів.
+      - en: Added Terratest coverage to shared Terraform modules.
+        uk: Покрив спільні Terraform-модулі тестами на Terratest.
+
+  - role: { en: DevOps Engineer, uk: DevOps-інженер }
+    company: RiverSoft
+    location: { en: "Kremenchuk, Ukraine", uk: "Кременчук, Україна" }
+    start: 2016-10
+    end: 2021-05
+    highlights:
+      - en: Designed DevOps infrastructure from scratch for several product lines.
+        uk: Спроєктував DevOps-інфраструктуру з нуля для кількох продуктових ліній.
+      - en: Owned releases and production operations; built Jenkins CI/CD pipelines.
+        uk: Відповідав за релізи та експлуатацію продакшну; будував CI/CD на Jenkins.
+      - en: Introduced an AWS multi-account strategy.
+        uk: Запровадив мультиакаунтну стратегію в AWS.
+      - en: Built and secured a Kafka cluster on bare metal (TLS, SASL, ACLs).
+        uk: Розгорнув і захистив Kafka-кластер на власних серверах (TLS, SASL, ACL).
+      - en: Set up on-call alerting with Prometheus, Alertmanager and PagerDuty.
+        uk: Налаштував чергування й алертинг на Prometheus, Alertmanager і PagerDuty.
+      - en: Helped developers adopt Vagrant, Ansible and Docker Compose for local environments.
+        uk: Допоміг розробникам перейти на Vagrant, Ansible і Docker Compose для локальних середовищ.
+
+skills:
+  - group: { en: Cloud, uk: Хмари }
+    items: [AWS, Azure, Google Cloud, DigitalOcean]
+  - group: Kubernetes
+    items: [EKS, AKS, kOps, kubeadm, Helm, Istio, bare metal]
+  - group: { en: Infrastructure as code, uk: Інфраструктура як код }
+    items: [Terraform, Terragrunt, Terratest, CloudFormation]
+  - group: { en: Configuration management, uk: Управління конфігурацією }
+    items: [Ansible, Salt]
+  - group: CI/CD
+    items: [GitLab CI, Jenkins, GitHub Actions, Bamboo, AWS CodeDeploy]
+  - group: { en: Observability, uk: Моніторинг }
+    items: [Prometheus, Alertmanager, Grafana, Graphite, InfluxDB, Telegraf, collectd, CloudWatch, Zabbix, PagerDuty]
+  - group: { en: Data & messaging, uk: Дані та черги }
+    items: [PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ, Kafka, Hazelcast]
+  - group: { en: Linux & networking, uk: Linux і мережі }
+    items: [Amazon Linux, CentOS, Debian, Ubuntu, LVM, NFS, Nginx, iptables, TLS, SSH, Kerberos]
+  - group: { en: Languages, uk: Мови }
+    items: [Go, Python, SQL]
+  - group: { en: Security, uk: Безпека }
+    items: [{ en: public-key cryptography, uk: криптографія з відкритим ключем }, PKI, TLS, { en: identity management, uk: управління ідентифікацією }]
+
+# Proctored certifications. `verify` is optional but recommended (Credly link is ideal).
+# Add `expires: YYYY-MM` — expired ones are shown greyed out and sorted last.
+certifications:
+  - name: Certified Kubernetes Administrator (CKA)
+    issuer: CNCF / The Linux Foundation
+    date: 2020-10
+    expires: 2023-10  # Credly shows this as expired. TODO: renewed? Update dates/ID.
+    id: LF-q3xgryxi85
+    verify: https://www.credly.com/badges/c905a958-f042-4f8b-951c-d55c5c98e0ba
+    image: static/certs/cncf-cka.jpg
+  - name: AWS Certified Solutions Architect – Associate
+    issuer: Amazon Web Services
+    date: 2022-02
+    expires: 2025-02  # Credly shows this as expired. TODO: renewed? Update dates/ID.
+    id: SY9JQCPJMM441VK3
+    verify: https://www.credly.com/badges/3c037237-d1f5-488a-9ce9-8a2115163afe
+    image: static/certs/aws-saa.jpg
+
+# Courses and training. Newest first is nice but the build sorts by date anyway.
+training:
+  - { name: "Helm Deep Dive V3", issuer: A Cloud Guru, date: 2021-06, image: static/certs/acg-helm-deep-dive.jpg }
+  - { name: "Build and Deploy Pipelines with Microsoft Azure", issuer: A Cloud Guru, date: 2021-06, image: static/certs/acg-azure-pipelines.jpg }
+  - { name: "Introduction to Azure", issuer: A Cloud Guru, date: 2021-05, image: static/certs/acg-intro-azure.jpg }
+  - { name: "Configuring and Monitoring Governance of AWS Deployments", issuer: A Cloud Guru, date: 2021-04, image: static/certs/acg-aws-governance-monitoring.jpg }
+  - { name: "LPIC-3 Exam 303: Security", issuer: A Cloud Guru, date: 2021-02, image: static/certs/acg-lpic3-303-security.jpg }
+  - { name: "Zabbix 5 Application and Network Monitoring", issuer: Udemy, date: 2020-07, image: static/certs/udemy-zabbix.jpg }
+  - { name: "Cloud Native Certified Kubernetes Administrator (CKA)", issuer: Linux Academy, date: 2020-07, image: static/certs/la-cka-course.jpg }
+  - { name: "Text Editing with Vim", issuer: Linux Academy, date: 2020-07, image: static/certs/la-vim.jpg }
+  - { name: "Service Mesh with Istio", issuer: Linux Academy, date: 2020-05, image: static/certs/la-istio.jpg }
+  - { name: "Kubernetes the Hard Way", issuer: Linux Academy, date: 2020-05, image: static/certs/la-k8s-hard-way.jpg }
+  - { name: "AWS Certified SysOps Administrator – Associate (SOA-C01)", issuer: Linux Academy, date: 2020-03, image: static/certs/la-aws-sysops.jpg }
+  - { name: "Automating AWS with Lambda, Python, and Boto3", issuer: Linux Academy, date: 2020-02, image: static/certs/la-aws-lambda-boto3.jpg }
+  - { name: "Deploying to AWS with Ansible and Terraform", issuer: Linux Academy, date: 2019-12, image: static/certs/la-ansible-terraform-aws.jpg }
+  - { name: "DevOps Monitoring Deep Dive", issuer: Linux Academy, date: 2019-12, image: static/certs/la-monitoring-deep-dive.jpg }
+  - { name: "AWS Certified Big Data – Specialty 2019", issuer: Udemy, date: 2019-09, image: static/certs/udemy-aws-big-data.jpg }
+  - { name: "Infrastructure Automation with Terraform", issuer: Udemy, date: 2019-04, image: static/certs/udemy-terraform.jpg }
+  - { name: "Ultimate AWS Certified Solutions Architect Associate", issuer: Udemy, date: 2019-03, image: static/certs/udemy-aws-saa.jpg }
+  - { name: "Git Complete", issuer: Udemy, date: 2019-03, image: static/certs/udemy-git.jpg }
+  - { name: "CI/CD with Jenkins using Pipelines and Docker", issuer: Udemy, date: 2019-01, image: static/certs/udemy-jenkins.jpg }
+  - { name: "Python Deep Dive (Погружение в Python)", issuer: MIPT / Coursera, date: 2019-01, verify: "https://coursera.org/verify/VCDYZHG9DHL8", image: static/certs/coursera-python.jpg }
+  - { name: "Learn DevOps: Advanced Kubernetes Usage", issuer: Udemy, date: 2018-11, image: static/certs/udemy-k8s-advanced.jpg }
+  - { name: "Learn DevOps: The Complete Kubernetes Course", issuer: Udemy, date: 2018-11, image: static/certs/udemy-k8s-complete.jpg }
+  - { name: "Kafka Security (SSL, SASL, Kerberos, ACL)", issuer: Udemy, date: 2018-08, image: static/certs/udemy-kafka-security.jpg }
+  - { name: "Kafka Cluster Setup & Administration", issuer: Udemy, date: 2018-06, image: static/certs/udemy-kafka-cluster-admin.jpg }
+
+education:
+  - school:
+      en: Dnipropetrovsk University of Economics and Law
+      uk: Дніпропетровський університет економіки та права
+    degree:
+      en: Diploma in Business Economics
+      uk: Диплом з економіки підприємства
+    start: 2001
+    end: 2006
+
+interests:
+  en: Cloud-native platforms, high-load systems, Go and Python. Off-screen — fishing, hiking and travel.
+  uk: Cloud-native платформи, високонавантажені системи, Go та Python. Поза екраном — риболовля, походи й подорожі.
+
+# Interface strings.
+ui:
+  en:
+    lang_name: English
+    download: Download CV
+    contact: Contact
+    experience: Experience
+    skills: Skills
+    certifications: Certifications
+    training: Training & courses
+    education: Education
+    interests: Interests
+    languages: Languages
+    present: present
+    expires: expires
+    expired: expired
+    verify: Verify
+    id: ID
+    updated: Updated
+    months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  uk:
+    lang_name: Українська
+    download: Завантажити CV
+    contact: Контакти
+    experience: Досвід роботи
+    skills: Навички
+    certifications: Сертифікації
+    training: Курси та навчання
+    education: Освіта
+    interests: Інтереси
+    languages: Мови
+    present: дотепер
+    expires: дійсний до
+    expired: термін дії сплив
+    verify: Перевірити
+    id: ID
+    updated: Оновлено
+    months: [січ, лют, бер, кві, тра, чер, лип, сер, вер, жов, лис, гру]
