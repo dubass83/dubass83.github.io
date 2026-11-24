@@ -11,7 +11,7 @@ person:
     uk: Максим Сич
   title:
     en: DevOps / Platform Engineer
-    uk: DevOps / Platform інженер
+    uk: DevOps / Platform Engineer
   photo: static/img/profile.jpg
   location:
     en: Svitlovodsk, Ukraine · open to remote
@@ -151,6 +151,9 @@ training:
   - { name: "Learn DevOps: The Complete Kubernetes Course", issuer: Udemy, date: 2018-11, image: static/certs/udemy-k8s-complete.jpg }
   - { name: "Kafka Security (SSL, SASL, Kerberos, ACL)", issuer: Udemy, date: 2018-08, image: static/certs/udemy-kafka-security.jpg }
   - { name: "Kafka Cluster Setup & Administration", issuer: Udemy, date: 2018-06, image: static/certs/udemy-kafka-cluster-admin.jpg }
+  - { name: "HackRF One PortaPack: A Complete RF Hacking Toolbox", issuer: Udemy, date: 2026-07, image: static/certs/HackRF.jpg }
+  - { name: "Certified Kubernetes Security Specialist 2026", issuer: Udemy, date: 2026-04, image: static/certs/cks-udemy.jpg }
+  - { name: "Backend Engineering with Go", issuer: Udemy, date: 2026-02, image: static/certs/golang-backend.jpg }
 
 education:
   - school:
