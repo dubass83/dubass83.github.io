@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import functools
+import hashlib
 import http.server
 import os
 import shutil
@@ -146,6 +147,7 @@ def render_lang(cv: dict, lang: str, chrome: str | None, pandoc: str | None) -> 
         training=sort_by_date(cv.get("training", [])),
         downloads=downloads,
         updated=dt.date.today().isoformat(),
+        css_v=hashlib.sha256((ROOT / "static" / "style.css").read_bytes()).hexdigest()[:10],
     )
     env = make_env(lang, ui)
 

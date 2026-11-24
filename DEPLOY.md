@@ -87,6 +87,18 @@ image path fails the build, so a typo never reaches the live site.
    After the first successful deploy, the old `master` branch (Nikola output) is no
    longer used. It can be kept for history or deleted.
 
+## Custom domain and HTTPS
+
+- With the Actions source, GitHub ignores the `CNAME` file in the build. The domain is set only in
+  **Settings → Pages → Custom domain** (`dubass83.xyz`). Switching the source can clear it.
+- Cloudflare DNS: four `A` records for `dubass83.xyz` → `185.199.108.153`, `.109`, `.110`, `.111`,
+  plus `CNAME www → dubass83.github.io`. Keep them **DNS only** (grey cloud).
+  GitHub issues and renews the Let's Encrypt certificate only when the domain resolves
+  directly to its IPs. With the orange cloud on, you get "not eligible for HTTPS", and Cloudflare
+  shows GitHub's "Site not found" 404.
+- If HTTPS breaks: grey-cloud the records, then in Pages remove and re-add the domain, wait
+  15–60 min, then tick **Enforce HTTPS**.
+
 ## Rollback
 
 Every deploy comes from a commit on `src`. To roll back, `git revert <sha>` and push.

@@ -16,7 +16,7 @@
   <meta property="og:description" content="{{ p.summary|t }}">
   <meta property="og:image" content="{{ p.website }}/{{ p.photo }}">
   <link rel="icon" href="{{ root }}favicon.ico">
-  <link rel="stylesheet" href="{{ root }}static/style.css">
+  <link rel="stylesheet" href="{{ root }}static/style.css?v={{ css_v }}">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":{{ (p.name|t)|tojson }},"jobTitle":{{ (p.title|t)|tojson }},"url":{{ p.website|tojson }},"email":{{ ("mailto:" ~ p.email)|tojson }},"sameAs":{{ p.links|map(attribute='url')|list|tojson }}}
   </script>
